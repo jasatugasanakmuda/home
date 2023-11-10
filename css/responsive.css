@@ -1,0 +1,805 @@
+@media screen and (max-width : 1200px) {
+  .navbar {
+      padding: 12px 0 ;
+  }
+  /* Universall */
+  .primary-button-md {
+      padding: 12px 24px;
+      font-size: 20px;
+  }
+
+  .primary-button-sm {
+      padding: 10px 18px;
+      font-size: 18px;
+  }
+
+  .primary-button-lg {
+      font-size: 24px;
+      line-height: 160%;
+      padding: 14px 18px;
+      width: 250px;
+  }
+
+  h1 {
+      line-height: 4rem;
+  }
+
+  h3 { 
+      font-size: 42px;
+      line-height: 64px;
+  }
+
+  h4 {
+      font-size: 24px;
+  }
+
+  h5 {
+      font-size: 30px;
+      line-height: 40px;    
+  }
+
+  /* Navbar */
+  .nav-item .nav-link {
+      font-size: 18px;
+      line-height: 30px;
+      margin: 0px 12px;
+  }
+
+  /* Hero */
+  .tagline {
+      font-size: 3rem;
+  }
+
+  #hero .sub-title {
+      font-size: 18px;
+      margin : 20px 0 30px 0;
+  }
+
+  /* Project */
+  #project .cards .project-description {
+      font-size: 16px;
+      line-height: 150%;
+  }
+
+  #project .cards {
+      margin-bottom: 40px;
+  }
+
+  /* Work */
+  #work a {
+      font-size: 20px;
+      line-height: 32px;
+  }
+
+  /* Product */
+  #product .cards span {
+      font-size: 16px;
+  }
+
+  .badge {
+      padding: 6px 24px;
+  }
+  .badge span {
+      font-size: 16px !important;
+  }
+
+  #product a {
+      font-size: 20px;
+      line-height: 32px;
+  }
+
+  /* Testimoni */ 
+  .testi-profile h5 {
+      font-size: 20px;
+  }
+  
+  .testi-profile span {
+      font-size: 14px;
+  }
+  
+  #testimoni .card-testi p {
+      font-size: 16px;
+  }
+
+  /* Contact */
+  #contact .sub-title-contact {
+      font-size: 20px;
+      margin: 24px 0;
+  }
+
+  #contact a {
+      margin: 24px 0;
+  }
+
+  /* footer */
+  
+  footer span {
+      font-size: 20px;
+  }
+
+  footer h1 {
+      font-size: 52px;
+      line-height: 78px;
+  }
+
+  footer p {
+      font-size: 16px;
+      line-height: 180%;
+      /* margin: 28px 0 36px 0; */
+  }
+}
+
+@media screen and (max-width : 1025px) {
+
+  .hero-img {
+      width: auto;
+      height: 100%;
+  }
+  
+  /* Universal  */
+
+
+  h2 { 
+      font-size: 42px;
+      line-height: 60px;
+      width: 100%;
+  }
+
+  h6 {
+      margin-bottom: .3rem;
+  }
+
+  section {
+      padding: 20px 0;
+  }
+
+  /* Testimoni */ 
+      .testi-profile h5 {
+          font-size: 18px;
+      }
+      
+      .testi-profile span {
+          font-size: 12px;
+      }
+      
+      #testimoni .card-testi p {
+          font-size: 14px;
+      }
+
+      #testimoni .card-testi {
+          padding: 32px 32px 4px 32px;
+      }
+
+      /* Contact */
+      #contact h1 {
+          font-size: 42px;
+      }
+
+      #contact .sub-title-contact {
+          font-size: 20px;
+          margin: 20px 0;
+      }
+
+      #contact .contact-description {
+          font-size: 18px;
+          margin-bottom: 24px;
+      }
+
+      /* footer */
+  
+      footer span {
+          font-size: 18px;
+      }
+
+      footer h1 {
+          font-size: 52px;
+      }
+
+      footer p {
+          font-size: 20px;
+          margin: 20px 0;
+      }
+
+      #hero {
+          height: auto;
+          margin-top: 89px;
+
+      }
+
+      .serve {
+          margin-top: 110px;
+      }   
+}
+
+@media screen and (max-width : 922px) {
+  .navbar-nav {
+      height: calc(100vh - 65px);
+  }
+
+  .button-nav {
+      position: absolute;
+      bottom: 5%;
+  }
+  .navbar-nav {
+      display: block;
+  }
+
+  .navbar-collapse {
+      position: absolute;
+      top: 54px;
+      left: 0;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-bottom: 15px;
+      width: 100%;
+      background-color: #FFFFFF;
+  }
+
+  .navbar-collapse.collapsing {
+      height: auto;
+      -webkit-transition: left 0.2s ease;
+      -o-transition: left 0.2s ease;
+      -moz-transition: left 0.2s ease;
+      transition: left 0.2s ease;
+      left: -100%;
+  }
+  .navbar-collapse.show {
+      left: 0;
+      -webkit-transition: left 0.2s ease-in;
+      -o-transition: left 0.2s ease-in;
+      -moz-transition: left 0.2s ease-in;
+      transition: left 0.2s ease-in;
+  }
+
+}
+
+
+@media screen and (max-height : 768px) {
+  .index-hero {
+      margin-top: 180px !important;
+  }
+}
+
+@media screen and ( max-width : 768px ) {
+  .serve h6 {
+      margin-bottom: 20px;
+  }
+
+  
+  .cube {
+      top: 3%;
+      left: 4%;
+      z-index: -1;
+  }
+
+  .cube-1 {
+      top: 10%;
+      right: 4%;
+      z-index: -1;
+  }
+
+  .serve {
+      margin-top: 380px;
+  }
+
+  /* Universall */
+  .primary-button-md {
+      padding: 12px 50px;
+      font-size: 20px;
+  }
+
+  #hero {
+      background-image: url(../img/Hero\ Background.png);
+      background-size: auto;
+      background-position : center;
+      height: 90vh;
+  }
+
+  
+  /* Project */
+  .icon-grid  {
+      width: 40px;
+      height: 40px;
+      border-radius: 8px;
+  }
+  
+  .grid-icon {
+      width: 20px;
+      height: 20px;
+      background-image: url(../img/Icon/Grid\ Selected\ Project.svg);
+      background-position: center;
+  }
+  .list-icon {
+      width: 20px;
+      height: 20px;
+      background-image: url(../img/Icon/List\ Selected\ Project.svg);
+      background-position: center;
+  }
+
+  /* Testimoni */ 
+  .testi-profile h5 {
+      font-size: 18px;
+      line-height: 140%;
+  }
+  
+  .testi-profile span {
+      font-size: 12px;
+      line-height: 18px;
+  }
+  
+  #testimoni .card-testi p {
+      font-weight: 500;
+      font-size: 14px;
+  }
+
+  #testimoni .card-testi {
+      padding: 32px 32px 4px 32px;
+  }
+
+      /* footer */
+  
+      footer span {
+          font-size: 18px;
+      }
+
+      footer h1 {
+          font-size: 52px;
+          line-height: 52px;
+      }
+
+      footer p {
+          font-size: 18px;
+          margin: 14px 0;
+      }
+
+      footer .profile {
+          font-size: 16px;
+      }
+
+      footer .profile {
+          margin-bottom: 24px;
+      }
+
+      /* Universal */ 
+      h6 {
+          font-size: 20px;
+      }
+
+      h1 {
+          font-size: 36px;
+          line-height: 40px;
+      }
+
+      footer { 
+          height: 500px;
+          background: #02052E;
+          padding-top : 50px;
+      }
+
+      .hero-accsent-1 {
+          top: -38px !important;
+          width: 80px;
+      }
+
+      .icon-grid {
+          visibility: hidden;
+      }
+
+      .sally-design-prosess {
+          width: 200px !important;
+          /* background-color: chartreuse; */
+      }
+
+      
+      .cta-designprosess {
+          width: 100vw;
+        }
+
+  }
+
+@media screen and ( max-width : 576px )  {
+  .tagline {
+      margin-top: 200px;
+  }
+
+  .serve {
+      margin-top: 480px;
+  }
+  /* Hero */
+  #hero {
+      margin-top: 65px !important;
+  }
+
+  
+  .index-hero {
+      margin-top: 0px !important;   
+  }
+
+  .card-testi {
+      width: 100%;
+      height: 308px !important;
+  }
+
+  
+
+  .hero-accsent-2 {
+      bottom: -35px !important;
+      width: 72px;
+      /* right: -15px !important; */
+  }
+
+  .tagline {
+      font-size: 3rem;
+  }
+
+  #hero .sub-title {
+      font-size: 1rem;
+      line-height: 20px;
+      margin : 10px 0 20px 0;
+      width: 100%;
+  }
+
+  /* Project */
+
+
+  /* Universal */
+  h2 { 
+      font-weight: 800;
+      font-size: 32px;
+      line-height: 48px;
+
+      color: #121212;
+      width: 100%;
+  }
+
+  h6 {
+      margin-bottom: .3rem;
+      font-weight: 600;
+      font-size: 18px;
+  }
+
+  
+  h1 {
+      font-size: 36px;
+      line-height: 54px;
+  }
+
+  h3 { 
+      font-size: 32px;
+      line-height: 48px;
+  }
+
+  h4 {
+      font-size: 20px;
+      line-height: 30px;
+  }
+
+  h5 {
+      font-size: 30px;
+      line-height: 32px;  
+      padding: 32px 0 18px 0;
+  }
+
+  #product .cards p {
+      font-size: 20px;
+      line-height: 140%;
+  }
+
+  #product .cards span {
+      font-weight: 500;
+      font-size: 20px;
+  }
+
+  #serve .primary-button-md {
+      margin : 30px 0 48px 0;
+  }
+
+  /* Contact */
+  #contact {
+      margin: 70px 0;
+  }
+
+  #contact h1 {
+      font-size: 32px;
+      line-height: 140%;
+  }
+
+  #contact .sub-title-contact {
+      font-size: 16px;
+      line-height: 150%;
+      margin: 24px 0 20px 0;
+  }
+
+  #contact .contact-description {
+      font-size: 14px;
+      line-height: 150%;
+      margin-bottom: 24px;
+  }
+
+  /* Testimoni */ 
+  .testi-profile h5 {
+      font-size: 18px;
+      line-height: 140%;
+  }
+  
+
+  #testimoni .card-testi {
+      padding: 24px 24px 4px 24px;
+  }
+
+  /* footer */
+  
+
+  footer h1 {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 52px;
+      line-height: 78px;
+      text-align: center;
+
+      color: #FFFFFF;
+
+  }
+
+  footer p {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 180%;
+      /* or 29px */
+
+      text-align: center;
+
+      color: #FFFFFF;
+
+  }
+
+  footer .profile {
+      font-size: 14px;
+  }
+
+  /* footer .navbar span {
+      font-size: 14px;
+  } */
+
+  footer .sub-brand {
+      font-size: 26px;
+      line-height: 39px;
+      font-weight: 700;
+  }
+
+  .nav-footer li {
+      font-size: 18px;
+      line-height: 27px;
+  }
+
+  .copyright {
+      font-size: 16px;
+      line-height: 18px;
+      margin-bottom: 40px;
+  }
+
+  .project-description p {
+      font-weight: 500;
+      font-size: 12px;
+      margin: 14px 0;
+  }
+
+  .card-testi {
+      height: 350px;
+  }
+
+              /* Testimoni */ 
+              .testi-profile h5 {
+                  font-size: 18px;
+                  line-height: 140%;
+                  padding: 0;
+                  margin : 0;
+              }
+          
+              .testi-profile .profile-testi {
+                  width: 60px;
+                  height: 60px;
+              }
+      
+              .sally-43  {
+                  width: 200px;
+                  top : -100px !important;
+              }
+
+              .saly-41 {
+                  width: 100px;
+                  left: 65%;
+              }
+
+              .sally-37 {
+                  width: 97px !important;
+                  right: 3% !important;
+              }
+
+              .cards-design {
+                  padding-top: 100px !important;
+                  padding-bottom: 246px !important;
+              }
+
+              
+
+              .cta-designprosess {
+                  margin-top: 108px !important;
+              }
+
+              .cta-designproses h5 {
+                  font-family: Poppins;
+                  font-style: normal;
+                  font-weight: bold;
+                  font-size: 38px;
+                  line-height: 57px;
+                  /* identical to box height */
+
+                  text-align: center;
+
+                  color: #FFFFFF;
+              }
+
+              .cta-designproses span {
+                  font-family: Poppins;
+                  font-style: normal;
+                  font-weight: normal;
+                  font-size: 20px;
+                  line-height: 150%;
+                  /* or 30px */
+
+                  text-align: center;
+
+                  color: #FFFFFF;
+                  width: 100%;
+              }
+
+              .sally-testi2 {
+                  width: 80px;
+              }
+
+              .sally-testi1 {
+                  width: 100px;
+              }
+
+              #testimoni {
+                  padding: 100px 0 !important;
+              }
+
+              .last-sample-card {
+                  margin-right : auto !important;
+                  margin-left: auto !important;
+              }
+      
+              .header-design {
+                  margin-top: 0 !important;
+              }
+      
+              .cards-design {
+                  padding-top: 0 !important ;
+              }
+      
+              .cta-designprosess {
+                  /* margin-top: 0 !important; */
+                  /* width: 1vw; */
+                  margin : 108px auto 18px auto !important;
+              }
+
+              .cta-designprosess span {
+                  width: 90% !important;
+                  margin: 0 auto;
+              }
+
+              #button-design {
+                  width: 75%;
+                  height: 64px;
+              }
+
+              .discover {
+                  font-family: Poppins;
+                  font-style: normal;
+                  font-weight: 600;
+                  font-size: 18px !important;
+                  line-height: 27px;
+              }
+      
+  
+}
+
+@media screen and ( max-width : 400px ) {
+  #product {
+      margin-top: 120px !important;
+  }
+
+  #product h6 {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 27px;
+  }
+
+  #product h2 {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 32px;
+      line-height: 48px;
+
+      color: #121212;
+      margin-top: 12px;
+
+  }
+
+  #work h6 {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 27px;
+  }
+
+  #work h2 {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 34px;
+      line-height: 48px;
+
+      color: #121212;
+      margin-top: 12px;
+  }
+
+  .sample-card {
+      height: 277px !important;
+  }
+
+
+  h1 {
+      font-size: 40px;
+  }
+
+  h2 { 
+      font-size: 42px;
+      line-height: 40px;
+      width: 100%;
+  }  
+
+  #hero .sub-title {
+      font-size: 14px;
+      margin : 20px 0 30px 0;
+  }
+
+  /* Navbar */
+  .navbar-brand {
+      font-size: 22px;
+      line-height: 39px;
+      font-weight: 700;
+      color: #0E1446;
+  }
+
+      /* Universall */
+      .primary-button-md {
+          /* width: 50%; */
+           padding: 12px 28px;
+
+      }
+
+      h5 {
+          font-size: 28px;
+          line-height: 42px;
+          margin: 32px 0 18px 0;
+      }
+
+      #serve p {
+          font-size: 16px;
+          line-height: 24px;
+      }
+
+      .ini-grid {
+          height: 0;
+      }
+}
